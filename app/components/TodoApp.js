@@ -19,6 +19,7 @@ export function TodoApp(props) {
       todos: visibleTodos,
       onToggle: props.onToggle,
       onDelete: props.onDelete,
+      onEdit: props.onEdit,
     }),
 
     TodoFooter({

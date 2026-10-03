@@ -9,6 +9,7 @@ export function TodoList(props) {
       completed: todo.completed,
       onToggle: props.onToggle,
       onDelete: props.onDelete,
+      onEdit: props.onEdit,
     }),
   );
 
